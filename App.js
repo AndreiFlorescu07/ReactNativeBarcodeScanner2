@@ -1,20 +1,35 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useEffect } from 'react';
 
-export default function App() {
+import Scanner from './screens/Scanner';
+import Home from './screens/Home';
+import AddProduct from './screens/AddProduct'; // Verificați că numele componentei importate este corect
+
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import { createTable } from './screens/dbConnection';
+
+const Stack = createStackNavigator();
+
+const App = () => {
+  useEffect(() => {
+    createTable()
+      .then((message) => {
+        console.log(message);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }, []);
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="Scanner" component={Scanner} />
+        <Stack.Screen name="AddProduct" component={AddProduct} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
