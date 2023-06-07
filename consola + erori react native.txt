@@ -1,0 +1,822 @@
+Microsoft Windows [Version 10.0.19045.2965]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\a.florescu\Desktop\REACT\barcodeScanner>expo init barcode
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned Expo CLI (npx expo).
+
+Migrate to using:
+› npx create-expo-app --template
+
+√ Choose a template: » blank               a minimal app as clean as an empty canvas
+√ Downloaded template.
+📦 Using npm to install packages.
+√ Installed JavaScript dependencies.
+
+✅ Your project is ready!
+
+To run your project, navigate to the directory and run one of the following npm commands.
+
+- cd barcode
+- npm start # you can open iOS, Android, or web from here, or run them directly with the commands below.
+- npm run android
+- npm run ios # requires an iOS device or macOS for access to an iOS simulator
+- npm run web
+
+C:\Users\a.florescu\Desktop\REACT\barcodeScanner>cd barcode
+
+C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode>npm install expo-barcode-scanner
+
+added 2 packages, and audited 1219 packages in 5s
+
+62 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (9 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode>npm install @react-navigation/native
+
+added 13 packages, and audited 1232 packages in 13s
+
+65 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (9 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode>expo install react-native-screens react-native-safe-area-context
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned Expo CLI (npx expo).
+
+This command is being executed with the global Expo CLI. Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421
+To use the local CLI instead (recommended in SDK 46 and higher), run:
+› npx expo install
+
+Installing 2 SDK 48.0.0 compatible native modules using npm.
+> npm install
+
+added 4 packages, and audited 1236 packages in 4s
+
+65 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (9 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+
+C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode>npm install @react-navigation/stack
+
+added 13 packages, and audited 1249 packages in 7s
+
+65 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (9 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode>code .
+
+C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode>npm start
+
+> barcode@1.0.0 start
+> expo start
+
+Starting project at C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄ ▀▄▀█ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀█ ▄█ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█  ▀▀ ▄▄▀▀▀▀▄▀█▄ ███ ▀▄▄ ▄█
+█▀██▄  ▄ ▀█▀ ▄▄█ ▀▀ █▄  ▀██
+█ ▀▄▀█▄▄▄█▀▄█▄▀▄▀▄▀▄▀▀▄ ▀██
+███ ▀▀▀▄ ▄▄██▀█▀▄▄▄█▄▀ ▀███
+█▄▄▄█▄▄▄▄  ▀▄ █▄▄ ▄▄▄ ▀ ▄▄█
+█ ▄▄▄▄▄ █▀█  ██▀▀ █▄█ ▀▀███
+█ █   █ █▄▀ ▀▀▀▄█▄▄ ▄▄▀ ▀▀█
+█ █▄▄▄█ █▀   ███▄██▄▀█▀▀ ██
+█▄▄▄▄▄▄▄█▄▄████▄████▄▄▄▄▄▄█
+
+
+› Metro waiting on exp://192.168.1.101:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+It looks like you're trying to use web support but don't have the required dependencies installed.
+
+Please install react-native-web@~0.18.10, react-dom@18.2.0, @expo/webpack-config@^18.0.1 by running:
+
+npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1
+
+If you're not using web, please ensure you remove the "web" string from the platforms array in the project Expo config.
+
+iOS Bundling failed 1868ms
+Unable to resolve " ./screens/Scanner" from "App.js"
+› Reloading apps
+warn No apps connected. Sending "reload" to all React Native apps failed. Make sure your app is running in the simulator or on a phone connected via USB.
+iOS Bundling failed 34ms
+Unable to resolve " ./screens/Scanner" from "App.js"
+› Reloading apps
+warn No apps connected. Sending "reload" to all React Native apps failed. Make sure your app is running in the simulator or on a phone connected via USB.
+It looks like you're trying to use web support but don't have the required dependencies installed.
+
+Please install react-native-web@~0.18.10, react-dom@18.2.0, @expo/webpack-config@^18.0.1 by running:
+
+npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1
+
+If you're not using web, please ensure you remove the "web" string from the platforms array in the project Expo config.
+
+It looks like you're trying to use web support but don't have the required dependencies installed.
+
+Please install react-native-web@~0.18.10, react-dom@18.2.0, @expo/webpack-config@^18.0.1 by running:
+
+npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1
+
+If you're not using web, please ensure you remove the "web" string from the platforms array in the project Expo config.
+
+› Stopped server
+
+C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode>npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1
+› Installing 3 SDK 48.0.0 compatible native modules using npm
+> npm install
+npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+
+added 357 packages, and audited 1606 packages in 43s
+
+104 packages are looking for funding
+  run `npm fund` for details
+
+15 vulnerabilities (10 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode>npm start
+
+> barcode@1.0.0 start
+> expo start
+
+Starting project at C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄ ▀▄▀█ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀█ ▄█ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█  ▀▀ ▄▄▀▀▀▀▄▀█▄ ███ ▀▄▄ ▄█
+█▀██▄  ▄ ▀█▀ ▄▄█ ▀▀ █▄  ▀██
+█ ▀▄▀█▄▄▄█▀▄█▄▀▄▀▄▀▄▀▀▄ ▀██
+███ ▀▀▀▄ ▄▄██▀█▀▄▄▄█▄▀ ▀███
+█▄▄▄█▄▄▄▄  ▀▄ █▄▄ ▄▄▄ ▀ ▄▄█
+█ ▄▄▄▄▄ █▀█  ██▀▀ █▄█ ▀▀███
+█ █   █ █▄▀ ▀▀▀▄█▄▄ ▄▄▀ ▀▀█
+█ █▄▄▄█ █▀   ███▄██▄▀█▀▀ ██
+█▄▄▄▄▄▄▄█▄▄████▄████▄▄▄▄▄▄█
+
+› Metro waiting on exp://192.168.1.101:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Starting Webpack on port 19006 in development mode.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄ ▀▄▀█ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀█ ▄█ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█  ▀▀ ▄▄▀▀▀▀▄▀█▄ ███ ▀▄▄ ▄█
+█▀██▄  ▄ ▀█▀ ▄▄█ ▀▀ █▄  ▀██
+█ ▀▄▀█▄▄▄█▀▄█▄▀▄▀▄▀▄▀▀▄ ▀██
+███ ▀▀▀▄ ▄▄██▀█▀▄▄▄█▄▀ ▀███
+█▄▄▄█▄▄▄▄  ▀▄ █▄▄ ▄▄▄ ▀ ▄▄█
+█ ▄▄▄▄▄ █▀█  ██▀▀ █▄█ ▀▀███
+█ █   █ █▄▀ ▀▀▀▄█▄▄ ▄▄▀ ▀▀█
+█ █▄▄▄█ █▀   ███▄██▄▀█▀▀ ██
+█▄▄▄▄▄▄▄█▄▄████▄████▄▄▄▄▄▄█
+
+› Metro waiting on exp://192.168.1.101:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Web is waiting on http://localhost:19006
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+› Open in the web browser...
+(node:3044) [DEP_WEBPACK_DEV_SERVER_CONSTRUCTOR] DeprecationWarning: Using 'compiler' as the first argument is deprecated. Please use 'options' as the first argument and 'compiler' as the second argument.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:3044) [DEP_WEBPACK_DEV_SERVER_LISTEN] DeprecationWarning: 'listen' is deprecated. Please use the async 'start' or 'startCallback' method.
+› Press ? │ show all commands
+WARNING in ./screens/Home.js:9:21
+export 'Stylesheet' (imported as 'Stylesheet') was not found in 'react-native-web/dist/index' (possible exports: AccessibilityInfo, ActivityIndicator, Alert, Animated, AppRegistry, AppState, Appearance, BackHandler, Button, CheckBox, Clipboard, DeviceEventEmitter, DeviceInfo, Dimensions, DrawerLayoutAndroid, Easing, FlatList, I18nManager, Image, ImageBackground, InputAccessoryView, InteractionManager, Keyboard, KeyboardAvoidingView, LayoutAnimation, Linking, LogBox, Modal, NativeEventEmitter, NativeModules, PanResponder, PermissionsAndroid, Picker, PixelRatio, Platform, Pressable, ProgressBar, RefreshControl, SafeAreaView, ScrollView, SectionList, Settings, Share, StatusBar, StyleSheet, Switch, Systrace, TVEventHandler, Text, TextInput, ToastAndroid, Touchable, TouchableHighlight, TouchableNativeFeedback, TouchableOpacity, TouchableWithoutFeedback, UIManager, Vibration, View, VirtualizedList, YellowBox, findNodeHandle, processColor, render, unmountComponentAtNode, unstable_createElement, useColorScheme, useLocaleContext, useWindowDimensions)
+   7 |     const navigation = useNavigation();
+   8 |     return (
+>  9 |         <View style={Stylesheet.container}>
+     |                     ^
+  10 |             <Button title = 'Scan' onPress={()=> navigation.navigate('Scanner')}/>
+  11 |         </View>
+  12 |     );
+
+web compiled with 1 warning
+iOS Bundling complete 9635ms
+ ERROR  ReferenceError: Property 'StyleSheet' doesn't exist, js engine: hermes
+ ERROR  Invariant Violation: "main" has not been registered. This can happen if:
+* Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.
+* A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called., js engine: hermes
+WARNING in ./screens/Home.js:10:21
+export 'Stylesheet' (imported as 'Stylesheet') was not found in 'react-native-web/dist/index' (possible exports: AccessibilityInfo, ActivityIndicator, Alert, Animated, AppRegistry, AppState, Appearance, BackHandler, Button, CheckBox, Clipboard, DeviceEventEmitter, DeviceInfo, Dimensions, DrawerLayoutAndroid, Easing, FlatList, I18nManager, Image, ImageBackground, InputAccessoryView, InteractionManager, Keyboard, KeyboardAvoidingView, LayoutAnimation, Linking, LogBox, Modal, NativeEventEmitter, NativeModules, PanResponder, PermissionsAndroid, Picker, PixelRatio, Platform, Pressable, ProgressBar, RefreshControl, SafeAreaView, ScrollView, SectionList, Settings, Share, StatusBar, StyleSheet, Switch, Systrace, TVEventHandler, Text, TextInput, ToastAndroid, Touchable, TouchableHighlight, TouchableNativeFeedback, TouchableOpacity, TouchableWithoutFeedback, UIManager, Vibration, View, VirtualizedList, YellowBox, findNodeHandle, processColor, render, unmountComponentAtNode, unstable_createElement, useColorScheme, useLocaleContext, useWindowDimensions)
+   8 |     const navigation = useNavigation();
+   9 |     return (
+> 10 |         <View style={Stylesheet.container}>
+     |                     ^
+  11 |             <Button title = 'Scan' onPress={()=> navigation.navigate('Scanner')}/>
+  12 |         </View>
+  13 |     );
+
+web compiled with 1 warning
+WARNING in ./screens/Home.js:10:21
+export 'Stylesheet' (imported as 'Stylesheet') was not found in 'react-native-web/dist/index' (possible exports: AccessibilityInfo, ActivityIndicator, Alert, Animated, AppRegistry, AppState, Appearance, BackHandler, Button, CheckBox, Clipboard, DeviceEventEmitter, DeviceInfo, Dimensions, DrawerLayoutAndroid, Easing, FlatList, I18nManager, Image, ImageBackground, InputAccessoryView, InteractionManager, Keyboard, KeyboardAvoidingView, LayoutAnimation, Linking, LogBox, Modal, NativeEventEmitter, NativeModules, PanResponder, PermissionsAndroid, Picker, PixelRatio, Platform, Pressable, ProgressBar, RefreshControl, SafeAreaView, ScrollView, SectionList, Settings, Share, StatusBar, StyleSheet, Switch, Systrace, TVEventHandler, Text, TextInput, ToastAndroid, Touchable, TouchableHighlight, TouchableNativeFeedback, TouchableOpacity, TouchableWithoutFeedback, UIManager, Vibration, View, VirtualizedList, YellowBox, findNodeHandle, processColor, render, unmountComponentAtNode, unstable_createElement, useColorScheme, useLocaleContext, useWindowDimensions)
+   8 |     const navigation = useNavigation();
+   9 |     return (
+> 10 |         <View style={Stylesheet.container}>
+     |                     ^
+  11 |             <Button title = 'Scan' onPress={()=> navigation.navigate('Scanner')}/>
+  12 |         </View>
+  13 |     );
+
+ERROR in ./screens/Scanner.js:4:9
+Syntax error: Identifier 'StyleSheet' has already been declared.
+
+  2 | import {Text, View, StyleSheet,Button,Linking} from 'react-native';
+  3 | import { BarCodeScanner } from 'expo-barcode-scanner';
+> 4 | import { StyleSheet, AppRegistry } from 'react-native';
+    |          ^
+  5 |
+  6 | export default function Scanner (){
+  7 |     const [hasPermission, setHasPermission] = useState(null);
+
+web compiled with 1 error and 1 warning
+› Stopped serverr(node:3044) [DEP_WEBPACK_DEV_SERVER_CLOSE] DeprecationWarning: 'close' is deprecated. Please use the as
+ync 'stop' or 'stopCallback' method.
+C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode>npm start
+
+> barcode@1.0.0 start
+> expo start
+
+Starting project at C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄ ▀▄▀█ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀█ ▄█ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█  ▀▀ ▄▄▀▀▀▀▄▀█▄ ███ ▀▄▄ ▄█
+█▀██▄  ▄ ▀█▀ ▄▄█ ▀▀ █▄  ▀██
+█ ▀▄▀█▄▄▄█▀▄█▄▀▄▀▄▀▄▀▀▄ ▀██
+███ ▀▀▀▄ ▄▄██▀█▀▄▄▄█▄▀ ▀███
+█▄▄▄█▄▄▄▄  ▀▄ █▄▄ ▄▄▄ ▀ ▄▄█
+█ ▄▄▄▄▄ █▀█  ██▀▀ █▄█ ▀▀███
+█ █   █ █▄▀ ▀▀▀▄█▄▄ ▄▄▀ ▀▀█
+█ █▄▄▄█ █▀   ███▄██▄▀█▀▀ ██
+█▄▄▄▄▄▄▄█▄▄████▄████▄▄▄▄▄▄█
+
+› Metro waiting on exp://192.168.1.101:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Starting Webpack on port 19006 in development mode.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄ ▀▄▀█ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀█ ▄█ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█  ▀▀ ▄▄▀▀▀▀▄▀█▄ ███ ▀▄▄ ▄█
+█▀██▄  ▄ ▀█▀ ▄▄█ ▀▀ █▄  ▀██
+█ ▀▄▀█▄▄▄█▀▄█▄▀▄▀▄▀▄▀▀▄ ▀██
+███ ▀▀▀▄ ▄▄██▀█▀▄▄▄█▄▀ ▀███
+█▄▄▄█▄▄▄▄  ▀▄ █▄▄ ▄▄▄ ▀ ▄▄█
+█ ▄▄▄▄▄ █▀█  ██▀▀ █▄█ ▀▀███
+█ █   █ █▄▀ ▀▀▀▄█▄▄ ▄▄▀ ▀▀█
+█ █▄▄▄█ █▀   ███▄██▄▀█▀▀ ██
+█▄▄▄▄▄▄▄█▄▄████▄████▄▄▄▄▄▄█
+
+› Metro waiting on exp://192.168.1.101:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Web is waiting on http://localhost:19006
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+› Open in the web browser...
+(node:12716) [DEP_WEBPACK_DEV_SERVER_CONSTRUCTOR] DeprecationWarning: Using 'compiler' as the first argument is deprecated. Please use 'options' as the first argument and 'compiler' as the second argument.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:12716) [DEP_WEBPACK_DEV_SERVER_LISTEN] DeprecationWarning: 'listen' is deprecated. Please use the async 'start' or 'startCallback' method.
+› Press ? │ show all commands
+SyntaxError: C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\screens\Scanner.js: Identifier 'StyleSheet' has already been declared. (4:9)
+
+  2 | import {Text, View, StyleSheet,Button,Linking} from 'react-native';
+  3 | import { BarCodeScanner } from 'expo-barcode-scanner';
+> 4 | import { StyleSheet, AppRegistry } from 'react-native';
+    |          ^
+  5 |
+  6 | export default function Scanner (){
+  7 |     const [hasPermission, setHasPermission] = useState(null);
+    at instantiate (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:653:32)
+    at constructor (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:946:12)
+    at FlowParserMixin.raise (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:3270:19)
+    at FlowScopeHandler.checkRedeclarationInScope (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:1556:19)
+    at FlowScopeHandler.declareName (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:1527:12)
+    at FlowScopeHandler.declareName (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:1623:11)
+    at FlowParserMixin.declareNameFromIdentifier (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:7544:16)
+    at FlowParserMixin.checkIdentifier (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:7540:12)
+    at FlowParserMixin.checkLVal (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:7479:12)
+    at FlowParserMixin.finishImportSpecifier (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:14073:10)
+    at FlowParserMixin.parseImportSpecifier (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:5733:17)
+    at FlowParserMixin.parseNamedImportSpecifiers (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:14199:36)
+    at FlowParserMixin.parseImport (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:14043:39)
+    at FlowParserMixin.parseStatementContent (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:12656:27)
+    at FlowParserMixin.parseStatementLike (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:12549:17)
+    at FlowParserMixin.parseStatementLike (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:5148:24)
+    at FlowParserMixin.parseModuleItem (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:12526:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:13121:36)
+    at FlowParserMixin.parseBlockBody (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:13114:10)
+    at FlowParserMixin.parseProgram (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:12437:10)
+    at FlowParserMixin.parseTopLevel (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:12427:25)
+    at FlowParserMixin.parseTopLevel (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:5968:28)
+    at FlowParserMixin.parse (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:14245:10)
+    at parse (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:14265:26)
+    at parser (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\core\lib\parser\index.js:41:34)
+    at parser.next (<anonymous>)
+    at parse (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\core\lib\parse.js:25:37)
+    at parse.next (<anonymous>)
+    at evaluateSync (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\gensync\index.js:251:28)
+    at sync (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\gensync\index.js:89:14)
+    at stopHiding - secret - don't use this - v1 (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\core\lib\errors\rewrite-stack-trace.js:46:12)
+    at parseSync (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\core\lib\parse.js:41:72)
+    at Object.transform (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\metro-react-native-babel-transformer\src\index.js:194:11)
+    at transformJSWithBabel (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\metro-transform-worker\src\index.js:360:45)
+    at Object.transform (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\metro-transform-worker\src\index.js:518:18)
+    at transformFile (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\metro\src\DeltaBundler\Worker.flow.js:73:36)
+    at Object.transform (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\metro\src\DeltaBundler\Worker.flow.js:48:10)
+    at execFunction (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\jest-worker\build\workers\processChild.js:137:17)
+    at execHelper (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\jest-worker\build\workers\processChild.js:116:5)
+    at execMethod (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\jest-worker\build\workers\processChild.js:120:5)
+    at process.messageListener (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\jest-worker\build\workers\processChild.js:38:7)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+SyntaxError: C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\screens\Scanner.js: Identifier 'StyleSheet' has already been declared. (4:9)
+
+  2 | import {Text, View, StyleSheet,Button,Linking} from 'react-native';
+  3 | import { BarCodeScanner } from 'expo-barcode-scanner';
+> 4 | import { StyleSheet, AppRegistry } from 'react-native';
+    |          ^
+  5 |
+  6 | export default function Scanner (){
+  7 |     const [hasPermission, setHasPermission] = useState(null);
+    at instantiate (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:653:32)
+    at constructor (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:946:12)
+    at FlowParserMixin.raise (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:3270:19)
+    at FlowScopeHandler.checkRedeclarationInScope (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:1556:19)
+    at FlowScopeHandler.declareName (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:1527:12)
+    at FlowScopeHandler.declareName (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:1623:11)
+    at FlowParserMixin.declareNameFromIdentifier (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:7544:16)
+    at FlowParserMixin.checkIdentifier (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:7540:12)
+    at FlowParserMixin.checkLVal (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:7479:12)
+    at FlowParserMixin.finishImportSpecifier (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:14073:10)
+    at FlowParserMixin.parseImportSpecifier (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:5733:17)
+    at FlowParserMixin.parseNamedImportSpecifiers (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:14199:36)
+    at FlowParserMixin.parseImport (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:14043:39)
+    at FlowParserMixin.parseStatementContent (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:12656:27)
+    at FlowParserMixin.parseStatementLike (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:12549:17)
+    at FlowParserMixin.parseStatementLike (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:5148:24)
+    at FlowParserMixin.parseModuleItem (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:12526:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:13121:36)
+    at FlowParserMixin.parseBlockBody (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:13114:10)
+    at FlowParserMixin.parseProgram (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:12437:10)
+    at FlowParserMixin.parseTopLevel (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:12427:25)
+    at FlowParserMixin.parseTopLevel (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:5968:28)
+    at FlowParserMixin.parse (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:14245:10)
+    at parse (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\parser\lib\index.js:14265:26)
+    at parser (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\core\lib\parser\index.js:41:34)
+    at parser.next (<anonymous>)
+    at parse (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\core\lib\parse.js:25:37)
+    at parse.next (<anonymous>)
+    at evaluateSync (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\gensync\index.js:251:28)
+    at sync (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\gensync\index.js:89:14)
+    at stopHiding - secret - don't use this - v1 (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\core\lib\errors\rewrite-stack-trace.js:46:12)
+    at parseSync (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\@babel\core\lib\parse.js:41:72)
+    at Object.transform (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\metro-react-native-babel-transformer\src\index.js:194:11)
+    at transformJSWithBabel (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\metro-transform-worker\src\index.js:360:45)
+    at Object.transform (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\metro-transform-worker\src\index.js:518:18)
+    at transformFile (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\metro\src\DeltaBundler\Worker.flow.js:73:36)
+    at Object.transform (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\metro\src\DeltaBundler\Worker.flow.js:48:10)
+    at execFunction (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\jest-worker\build\workers\processChild.js:137:17)
+    at execHelper (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\jest-worker\build\workers\processChild.js:116:5)
+    at execMethod (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\jest-worker\build\workers\processChild.js:120:5)
+    at process.messageListener (C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\node_modules\jest-worker\build\workers\processChild.js:38:7)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+WARNING in ./screens/Home.js:10:21
+export 'Stylesheet' (imported as 'Stylesheet') was not found in 'react-native-web/dist/index' (possible exports: AccessibilityInfo, ActivityIndicator, Alert, Animated, AppRegistry, AppState, Appearance, BackHandler, Button, CheckBox, Clipboard, DeviceEventEmitter, DeviceInfo, Dimensions, DrawerLayoutAndroid, Easing, FlatList, I18nManager, Image, ImageBackground, InputAccessoryView, InteractionManager, Keyboard, KeyboardAvoidingView, LayoutAnimation, Linking, LogBox, Modal, NativeEventEmitter, NativeModules, PanResponder, PermissionsAndroid, Picker, PixelRatio, Platform, Pressable, ProgressBar, RefreshControl, SafeAreaView, ScrollView, SectionList, Settings, Share, StatusBar, StyleSheet, Switch, Systrace, TVEventHandler, Text, TextInput, ToastAndroid, Touchable, TouchableHighlight, TouchableNativeFeedback, TouchableOpacity, TouchableWithoutFeedback, UIManager, Vibration, View, VirtualizedList, YellowBox, findNodeHandle, processColor, render, unmountComponentAtNode, unstable_createElement, useColorScheme, useLocaleContext, useWindowDimensions)
+   8 |     const navigation = useNavigation();
+   9 |     return (
+> 10 |         <View style={Stylesheet.container}>
+     |                     ^
+  11 |             <Button title = 'Scan' onPress={()=> navigation.navigate('Scanner')}/>
+  12 |         </View>
+  13 |     );
+
+ERROR in ./screens/Scanner.js:4:9
+Syntax error: Identifier 'StyleSheet' has already been declared.
+
+  2 | import {Text, View, StyleSheet,Button,Linking} from 'react-native';
+  3 | import { BarCodeScanner } from 'expo-barcode-scanner';
+> 4 | import { StyleSheet, AppRegistry } from 'react-native';
+    |          ^
+  5 |
+  6 | export default function Scanner (){
+  7 |     const [hasPermission, setHasPermission] = useState(null);
+
+web compiled with 1 error and 1 warning
+iOS Bundling failed 89ms
+error: SyntaxError: C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode\screens\Scanner.js: Identifier 'StyleSheet' has already been declared. (4:9)
+
+  2 | import {Text, View, StyleSheet,Button,Linking} from 'react-native';
+  3 | import { BarCodeScanner } from 'expo-barcode-scanner';
+> 4 | import { StyleSheet, AppRegistry } from 'react-native';
+    |          ^
+  5 |
+  6 | export default function Scanner (){
+  7 |     const [hasPermission, setHasPermission] = useState(null);
+- Stopping server(node:12716) [DEP_WEBPACK_DEV_SERVER_CLOSE] DeprecationWarning: 'close' is deprecated. Please use the async 'stop' or 'stopCallback' method.
+› Stopped server
+
+C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode>npm start
+
+> barcode@1.0.0 start
+> expo start
+
+Starting project at C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄ ▀▄▀█ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀█ ▄█ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█  ▀▀ ▄▄▀▀▀▀▄▀█▄ ███ ▀▄▄ ▄█
+█▀██▄  ▄ ▀█▀ ▄▄█ ▀▀ █▄  ▀██
+█ ▀▄▀█▄▄▄█▀▄█▄▀▄▀▄▀▄▀▀▄ ▀██
+███ ▀▀▀▄ ▄▄██▀█▀▄▄▄█▄▀ ▀███
+█▄▄▄█▄▄▄▄  ▀▄ █▄▄ ▄▄▄ ▀ ▄▄█
+█ ▄▄▄▄▄ █▀█  ██▀▀ █▄█ ▀▀███
+█ █   █ █▄▀ ▀▀▀▄█▄▄ ▄▄▀ ▀▀█
+█ █▄▄▄█ █▀   ███▄██▄▀█▀▀ ██
+█▄▄▄▄▄▄▄█▄▄████▄████▄▄▄▄▄▄█
+
+› Metro waiting on exp://192.168.1.101:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+iOS Bundling complete 2634ms
+ ERROR  ReferenceError: Property 'StyleSheet' doesn't exist, js engine: hermes
+ ERROR  Invariant Violation: "main" has not been registered. This can happen if:
+* Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.
+* A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called., js engine: hermes
+› Stopped server
+
+C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode>npm start
+
+> barcode@1.0.0 start
+> expo start
+
+Starting project at C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄ ▀▄▀█ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀█ ▄█ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█  ▀▀ ▄▄▀▀▀▀▄▀█▄ ███ ▀▄▄ ▄█
+█▀██▄  ▄ ▀█▀ ▄▄█ ▀▀ █▄  ▀██
+█ ▀▄▀█▄▄▄█▀▄█▄▀▄▀▄▀▄▀▀▄ ▀██
+███ ▀▀▀▄ ▄▄██▀█▀▄▄▄█▄▀ ▀███
+█▄▄▄█▄▄▄▄  ▀▄ █▄▄ ▄▄▄ ▀ ▄▄█
+█ ▄▄▄▄▄ █▀█  ██▀▀ █▄█ ▀▀███
+█ █   █ █▄▀ ▀▀▀▄█▄▄ ▄▄▀ ▀▀█
+█ █▄▄▄█ █▀   ███▄██▄▀█▀▀ ██
+█▄▄▄▄▄▄▄█▄▄████▄████▄▄▄▄▄▄█
+
+› Metro waiting on exp://192.168.1.101:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+iOS Bundling complete 2652ms
+ ERROR  ReferenceError: Property 'Stylesheet' doesn't exist
+
+This error is located at:
+    in Home (created by SceneView)
+    in StaticContainer
+    in EnsureSingleNavigator (created by SceneView)
+    in SceneView (created by CardContainer)
+    in RCTView (created by View)
+    in View (created by CardContainer)
+    in RCTView (created by View)
+    in View (created by CardContainer)
+    in RCTView (created by View)
+    in View
+    in CardSheet (created by Card)
+    in RCTView (created by View)
+    in View (created by AnimatedComponent)
+    in AnimatedComponent
+    in AnimatedComponentWrapper (created by PanGestureHandler)
+    in PanGestureHandler (created by PanGestureHandler)
+    in PanGestureHandler (created by Card)
+    in RCTView (created by View)
+    in View (created by AnimatedComponent)
+    in AnimatedComponent
+    in AnimatedComponentWrapper (created by Card)
+    in RCTView (created by View)
+    in View (created by Card)
+    in Card (created by CardContainer)
+    in CardContainer (created by CardStack)
+    in RNSScreen (created by AnimatedComponent)
+    in AnimatedComponent
+    in AnimatedComponentWrapper (created by InnerScreen)
+    in Suspender (created by Freeze)
+    in Suspense (created by Freeze)
+    in Freeze (created by DelayedFreeze)
+    in DelayedFreeze (created by InnerScreen)
+    in InnerScreen (created by Screen)
+    in Screen (created by MaybeScreen)
+    in MaybeScreen (created by CardStack)
+    in RNSScreenContainer (created by ScreenContainer)
+    in ScreenContainer (created by MaybeScreenContainer)
+    in MaybeScreenContainer (created by CardStack)
+    in RCTView (created by View)
+    in View (created by Background)
+    in Background (created by CardStack)
+    in CardStack (created by HeaderShownContext)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by StackView)
+    in RCTView (created by View)
+    in View (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by StackView)
+    in StackView (created by StackNavigator)
+    in PreventRemoveProvider (created by NavigationContent)
+    in NavigationContent
+    in Unknown (created by StackNavigator)
+    in StackNavigator (created by App)
+    in App (created by _default)
+    in EnsureSingleNavigator
+    in BaseNavigationContainer
+    in ThemeProvider
+    in NavigationContainerInner (created by _default)
+    in _default (created by withDevTools(_default))
+    in withDevTools(_default)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in main(RootComponent), js engine: hermes
+ ERROR  ReferenceError: Property 'Stylesheet' doesn't exist
+
+This error is located at:
+    in Home (created by SceneView)
+    in StaticContainer
+    in EnsureSingleNavigator (created by SceneView)
+    in SceneView (created by CardContainer)
+    in RCTView (created by View)
+    in View (created by CardContainer)
+    in RCTView (created by View)
+    in View (created by CardContainer)
+    in RCTView (created by View)
+    in View
+    in CardSheet (created by Card)
+    in RCTView (created by View)
+    in View (created by AnimatedComponent)
+    in AnimatedComponent
+    in AnimatedComponentWrapper (created by PanGestureHandler)
+    in PanGestureHandler (created by PanGestureHandler)
+    in PanGestureHandler (created by Card)
+    in RCTView (created by View)
+    in View (created by AnimatedComponent)
+    in AnimatedComponent
+    in AnimatedComponentWrapper (created by Card)
+    in RCTView (created by View)
+    in View (created by Card)
+    in Card (created by CardContainer)
+    in CardContainer (created by CardStack)
+    in RNSScreen (created by AnimatedComponent)
+    in AnimatedComponent
+    in AnimatedComponentWrapper (created by InnerScreen)
+    in Suspender (created by Freeze)
+    in Suspense (created by Freeze)
+    in Freeze (created by DelayedFreeze)
+    in DelayedFreeze (created by InnerScreen)
+    in InnerScreen (created by Screen)
+    in Screen (created by MaybeScreen)
+    in MaybeScreen (created by CardStack)
+    in RNSScreenContainer (created by ScreenContainer)
+    in ScreenContainer (created by MaybeScreenContainer)
+    in MaybeScreenContainer (created by CardStack)
+    in RCTView (created by View)
+    in View (created by Background)
+    in Background (created by CardStack)
+    in CardStack (created by HeaderShownContext)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by StackView)
+    in RCTView (created by View)
+    in View (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by StackView)
+    in StackView (created by StackNavigator)
+    in PreventRemoveProvider (created by NavigationContent)
+    in NavigationContent
+    in Unknown (created by StackNavigator)
+    in StackNavigator (created by App)
+    in App (created by _default)
+    in EnsureSingleNavigator
+    in BaseNavigationContainer
+    in ThemeProvider
+    in NavigationContainerInner (created by _default)
+    in _default (created by withDevTools(_default))
+    in withDevTools(_default)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in main(RootComponent), js engine: hermes
+› Stopped server
+
+C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode>npm start
+
+> barcode@1.0.0 start
+> expo start
+
+Starting project at C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄ ▀▄▀█ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀█ ▄█ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█  ▀▀ ▄▄▀▀▀▀▄▀█▄ ███ ▀▄▄ ▄█
+█▀██▄  ▄ ▀█▀ ▄▄█ ▀▀ █▄  ▀██
+█ ▀▄▀█▄▄▄█▀▄█▄▀▄▀▄▀▄▀▀▄ ▀██
+███ ▀▀▀▄ ▄▄██▀█▀▄▄▄█▄▀ ▀███
+█▄▄▄█▄▄▄▄  ▀▄ █▄▄ ▄▄▄ ▀ ▄▄█
+█ ▄▄▄▄▄ █▀█  ██▀▀ █▄█ ▀▀███
+█ █   █ █▄▀ ▀▀▀▄█▄▄ ▄▄▀ ▀▀█
+█ █▄▄▄█ █▀   ███▄██▄▀█▀▀ ██
+█▄▄▄▄▄▄▄█▄▄████▄████▄▄▄▄▄▄█
+
+› Metro waiting on exp://192.168.1.101:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+iOS Bundling complete 2524ms
+Starting Webpack on port 19006 in development mode.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄ ▀▄▀█ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀█ ▄█ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█  ▀▀ ▄▄▀▀▀▀▄▀█▄ ███ ▀▄▄ ▄█
+█▀██▄  ▄ ▀█▀ ▄▄█ ▀▀ █▄  ▀██
+█ ▀▄▀█▄▄▄█▀▄█▄▀▄▀▄▀▄▀▀▄ ▀██
+███ ▀▀▀▄ ▄▄██▀█▀▄▄▄█▄▀ ▀███
+█▄▄▄█▄▄▄▄  ▀▄ █▄▄ ▄▄▄ ▀ ▄▄█
+█ ▄▄▄▄▄ █▀█  ██▀▀ █▄█ ▀▀███
+█ █   █ █▄▀ ▀▀▀▄█▄▄ ▄▄▀ ▀▀█
+█ █▄▄▄█ █▀   ███▄██▄▀█▀▀ ██
+█▄▄▄▄▄▄▄█▄▄████▄████▄▄▄▄▄▄█
+
+› Metro waiting on exp://192.168.1.101:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Web is waiting on http://localhost:19006
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+› Open in the web browser...
+(node:13812) [DEP_WEBPACK_DEV_SERVER_CONSTRUCTOR] DeprecationWarning: Using 'compiler' as the first argument is deprecated. Please use 'options' as the first argument and 'compiler' as the second argument.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:13812) [DEP_WEBPACK_DEV_SERVER_LISTEN] DeprecationWarning: 'listen' is deprecated. Please use the async 'start' or 'startCallback' method.
+› Press ? │ show all commands
+web compiled successfully
+iOS Bundling complete 54ms
+- Stopping server(node:13812) [DEP_WEBPACK_DEV_SERVER_CLOSE] DeprecationWarning: 'close' is deprecated. Please use the async 'stop' or 'stopCallback' method.
+› Stopped server
+
+C:\Users\a.florescu\Desktop\REACT\barcodeScanner\barcode>
